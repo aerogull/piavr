@@ -1,0 +1,1360 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "13de848b-ac42-4ac4-9bcd-e460646748cf")
+	(paper "A4")
+	(lib_symbols
+		(symbol "piavr:AK4458VN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 46.99 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AK4458VN"
+				(at 46.99 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "QFN50P700X700X100-49N-D"
+				(at 46.99 -82.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-11/203849.pdf"
+				(at 46.99 -182.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "8 Channel DAC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1"
+				(at 46.99 -382.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Asahi Kasei Microdevices"
+				(at 46.99 -482.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AK4458VN"
+				(at 46.99 -582.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "412-AK4458VN"
+				(at 46.99 -682.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Asahi-Kasei-Microdevices/AK4458VN?qs=vvQtp7zwQdPkOtm%2F7pZztA%3D%3D"
+				(at 46.99 -782.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "AK4458VN"
+				(at 46.99 -882.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ak4458vn/asahi-kasei-microdevices-corporation?utm_currency=USD&region=nac"
+				(at 46.99 -982.22 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "AK4458VN_1_1"
+				(rectangle
+					(start 5.08 15.24)
+					(end 45.72 -53.34)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "BICK/DCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "LRCK/DSDL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "SDTI1/DSDR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "SDTI2/DSDL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "SDTI3/DSDR2/TDMO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "SDTI4/DSDL3/TDMO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "DSDR3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "DSDL4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "DSDR4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "DZF/SMUTE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "CAD1/DCHAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -58.42 90)
+					(length 5.08)
+					(name "SDA/CDTI/TDM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -58.42 90)
+					(length 5.08)
+					(name "SCL/CCLK/TDM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -58.42 90)
+					(length 5.08)
+					(name "CAD0-I2C/CSN/DIF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -58.42 90)
+					(length 5.08)
+					(name "PS/CAD0_SPI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -58.42 90)
+					(length 5.08)
+					(name "I2C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -58.42 90)
+					(length 5.08)
+					(name "AOUTL1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -58.42 90)
+					(length 5.08)
+					(name "AOUTL1N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -58.42 90)
+					(length 5.08)
+					(name "VREFL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -58.42 90)
+					(length 5.08)
+					(name "VREFH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 33.02 -58.42 90)
+					(length 5.08)
+					(name "AOUTR1N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -58.42 90)
+					(length 5.08)
+					(name "AOUTR1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -58.42 90)
+					(length 5.08)
+					(name "AOUTL2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -27.94 180)
+					(length 5.08)
+					(name "AOUTL2N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -25.4 180)
+					(length 5.08)
+					(name "VREFL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -22.86 180)
+					(length 5.08)
+					(name "VREFH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -20.32 180)
+					(length 5.08)
+					(name "AOUTR2N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -17.78 180)
+					(length 5.08)
+					(name "AOUTR2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -15.24 180)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -12.7 180)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -10.16 180)
+					(length 5.08)
+					(name "AOUTL3P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -7.62 180)
+					(length 5.08)
+					(name "AOUTL3N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -5.08 180)
+					(length 5.08)
+					(name "VREFH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -2.54 180)
+					(length 5.08)
+					(name "VREFL3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 0 180)
+					(length 5.08)
+					(name "AOUTR3N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 40.64 20.32 270)
+					(length 5.08)
+					(name "AOUTR3P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 20.32 270)
+					(length 5.08)
+					(name "AOUTL4P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 20.32 270)
+					(length 5.08)
+					(name "AOUTL4N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 33.02 20.32 270)
+					(length 5.08)
+					(name "VREFH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 20.32 270)
+					(length 5.08)
+					(name "VREFL4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 20.32 270)
+					(length 5.08)
+					(name "AOUTR4N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 20.32 270)
+					(length 5.08)
+					(name "AOUTR4P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 20.32 270)
+					(length 5.08)
+					(name "LDOE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 20.32 270)
+					(length 5.08)
+					(name "TVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 20.32 270)
+					(length 5.08)
+					(name "DVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 20.32 270)
+					(length 5.08)
+					(name "VDD18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 20.32 270)
+					(length 5.08)
+					(name "PDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 20.32 270)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "piavr:AK4458VN")
+		(at 115.57 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b472153-ec06-455e-bb19-a03e30388443")
+		(property "Reference" "IC1"
+			(at 167.64 64.6998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AK4458VN"
+			(at 167.64 67.2398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "QFN50P700X700X100-49N-D"
+			(at 162.56 153.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-11/203849.pdf"
+			(at 162.56 253.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "8 Channel DAC"
+			(at 115.57 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 162.56 453.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Asahi Kasei Microdevices"
+			(at 162.56 553.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AK4458VN"
+			(at 162.56 653.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "412-AK4458VN"
+			(at 162.56 753.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Asahi-Kasei-Microdevices/AK4458VN?qs=vvQtp7zwQdPkOtm%2F7pZztA%3D%3D"
+			(at 162.56 853.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "AK4458VN"
+			(at 162.56 953.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ak4458vn/asahi-kasei-microdevices-corporation?utm_currency=USD&region=nac"
+			(at 162.56 1053.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "16"
+			(uuid "f9e2862a-42fa-4268-8914-770f5ce8ce24")
+		)
+		(pin "11"
+			(uuid "4b195105-9b56-45ff-b77f-36f0169ec767")
+		)
+		(pin "14"
+			(uuid "f91e688a-920e-401a-b42a-e237f75f9ea2")
+		)
+		(pin "3"
+			(uuid "54642b2a-2d66-4837-b81f-f16a3e2bb822")
+		)
+		(pin "5"
+			(uuid "9c0a7ab2-9756-4270-a626-a1d7981e9136")
+		)
+		(pin "2"
+			(uuid "79fb3756-60d3-433a-80aa-45b120e99cbe")
+		)
+		(pin "27"
+			(uuid "881a562b-ae3f-43cf-b42a-d440554c4c44")
+		)
+		(pin "30"
+			(uuid "3073cc2d-5cbb-4f13-935d-705d521293f3")
+		)
+		(pin "13"
+			(uuid "7f48e6d6-f5c1-4a3b-a607-af75d5c4b2a0")
+		)
+		(pin "7"
+			(uuid "140d778e-2466-4c4b-a8e9-38c87bd5e9cb")
+		)
+		(pin "25"
+			(uuid "7a8fc505-35dd-44a7-8703-899e6a184241")
+		)
+		(pin "4"
+			(uuid "ae30bd2e-287c-44a3-be28-3ca43e7fa056")
+		)
+		(pin "20"
+			(uuid "27264ba0-d380-4f25-90e6-3769fa0faf3c")
+		)
+		(pin "28"
+			(uuid "6c7de93c-7270-495b-8531-3e17f7a210b2")
+		)
+		(pin "37"
+			(uuid "f5159b96-acd8-4b0a-b1c4-ae1cb7caab75")
+		)
+		(pin "9"
+			(uuid "f1a24a84-4e4a-4ca9-8b8c-bf7f4016ddad")
+		)
+		(pin "18"
+			(uuid "3795baae-ff95-4b05-a867-953749e38b06")
+		)
+		(pin "21"
+			(uuid "bc9c65a6-e40f-4f1c-8cfb-9e7a5daaf7a2")
+		)
+		(pin "6"
+			(uuid "5f4967bf-fbab-4cc9-a6e5-56d6a61a139b")
+		)
+		(pin "1"
+			(uuid "8d8e1251-334f-4d9f-89a6-7eb29a3d1a57")
+		)
+		(pin "8"
+			(uuid "a56b9963-4661-4fee-8983-a02f0acd12b8")
+		)
+		(pin "12"
+			(uuid "a4e12089-6c08-4843-b740-aceaff74933c")
+		)
+		(pin "10"
+			(uuid "704321fb-09c9-4f01-a996-1f9775035667")
+		)
+		(pin "15"
+			(uuid "a51838cb-a50d-4c0a-b011-95aa2abc9c73")
+		)
+		(pin "17"
+			(uuid "18a52172-997e-4f56-a342-fc846e3b9a5b")
+		)
+		(pin "19"
+			(uuid "f41bda8f-046a-48e4-b6be-f42981356019")
+		)
+		(pin "22"
+			(uuid "191c8b42-b053-45e9-b9a0-741c3ab0173f")
+		)
+		(pin "23"
+			(uuid "10212fb1-38e3-4695-93b5-ea88a9af220e")
+		)
+		(pin "24"
+			(uuid "3f2fc6d9-0bad-4249-bd7e-f8783d01644e")
+		)
+		(pin "26"
+			(uuid "be6d489c-81ff-4364-a750-d4cec6347d2a")
+		)
+		(pin "29"
+			(uuid "0e024c17-bbe9-4089-94dd-3deb5726855b")
+		)
+		(pin "31"
+			(uuid "2a0218c4-876e-46bb-b02d-5d59d644596d")
+		)
+		(pin "33"
+			(uuid "6061b5d8-8419-4d33-9b46-4db74d842903")
+		)
+		(pin "34"
+			(uuid "0ef587f5-30ba-47d0-b151-6bb860460c5b")
+		)
+		(pin "35"
+			(uuid "4495f59d-37fd-4253-bb65-74d815cd82fe")
+		)
+		(pin "32"
+			(uuid "5df730cb-2552-401e-9815-3162853e93a8")
+		)
+		(pin "36"
+			(uuid "e651d2ba-d63b-4a3e-b85a-15a02e51f322")
+		)
+		(pin "42"
+			(uuid "ff878e5b-f805-4c6e-a3c2-0b2b7c93460b")
+		)
+		(pin "38"
+			(uuid "440c9fa3-bf4c-43a2-aae9-08b6f371940b")
+		)
+		(pin "44"
+			(uuid "c93348bc-d1be-4e8e-900a-1c110e17efa5")
+		)
+		(pin "46"
+			(uuid "52ae21bc-4850-4854-854b-e177224f4f58")
+		)
+		(pin "48"
+			(uuid "d6aefccc-6837-4ca4-b6b0-39d4ffa9dec4")
+		)
+		(pin "49"
+			(uuid "9ca44971-fd5d-4a73-96f8-226c84f80832")
+		)
+		(pin "45"
+			(uuid "f3cd74ed-1ea1-47e6-8dae-4620e09c5d03")
+		)
+		(pin "39"
+			(uuid "5c44c15a-2224-4c75-a088-08f1cf097d45")
+		)
+		(pin "47"
+			(uuid "66af727f-fddf-4120-8987-6f78c293812c")
+		)
+		(pin "40"
+			(uuid "1b67cedf-effc-4455-a330-94128e9b4cad")
+		)
+		(pin "41"
+			(uuid "b4cf73ff-cfa1-4cdf-872c-9f6d57f7cd2d")
+		)
+		(pin "43"
+			(uuid "ad6f6cd2-dd9a-41ca-851b-b1e7048b1f16")
+		)
+		(instances
+			(project "piavr"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/13fb55d0-7bb2-4fd5-a147-abed2459fe9c"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
