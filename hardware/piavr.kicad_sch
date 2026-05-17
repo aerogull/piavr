@@ -3525,6 +3525,54 @@
 		)
 		(uuid "f9b80c2b-5447-4c6b-b35d-cb6b75fa7978")
 	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 31.75 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35f1a3f0-67fa-4352-90ff-4ce4e94f3fd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.1102 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 31.75 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5a0295-3b77-453c-b51d-0257bb64fde9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.0497 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 76.2 24.13 0)
@@ -3536,7 +3584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000580c1b61")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 76.2 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3594,7 +3642,7 @@
 		(instances
 			(project "piavr"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3611,7 +3659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000580c1bc1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 55.88 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3717,7 @@
 		(instances
 			(project "piavr"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000580c1d11")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 76.2 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3744,7 +3792,7 @@
 		(instances
 			(project "piavr"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3761,7 +3809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000580c1e01")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 58.42 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3819,7 +3867,7 @@
 		(instances
 			(project "piavr"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55bbe0f6-d435-4137-8361-5f963fa98019")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR06"
 			(at 101.6 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4412,7 +4460,7 @@
 		(instances
 			(project "piavr"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0101")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4526,7 +4574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1f566e9-0031-4962-855e-0c4a126ebda1")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR05"
 			(at 81.28 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -4584,7 +4632,7 @@
 		(instances
 			(project "piavr"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0102")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4601,7 +4649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d61534ae-80e4-4b99-8acb-48c690b6a4fa")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR07"
 			(at 97.79 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -4662,14 +4710,14 @@
 		(instances
 			(project "piavr"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0103")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 224.79 22.86)
+		(at 219.71 85.09)
 		(size 49.53 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4685,7 +4733,7 @@
 		)
 		(uuid "13fb55d0-7bb2-4fd5-a147-abed2459fe9c")
 		(property "Sheetname" "DAC"
-			(at 224.79 22.1484 0)
+			(at 219.71 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4696,7 +4744,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 224.79 60.2746 0)
+			(at 219.71 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4715,7 +4763,7 @@
 		)
 	)
 	(sheet
-		(at 224.79 74.93)
+		(at 144.78 26.67)
 		(size 49.53 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4731,7 +4779,7 @@
 		)
 		(uuid "b7a9474c-3a4c-4b0b-a12e-2b31fc899013")
 		(property "Sheetname" "eARC"
-			(at 224.79 74.2184 0)
+			(at 144.78 25.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4742,7 +4790,7 @@
 			)
 		)
 		(property "Sheetfile" "eARC.kicad_sch"
-			(at 224.79 112.3446 0)
+			(at 144.78 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4761,7 +4809,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 22.86)
+		(at 219.71 26.67)
 		(size 49.53 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4777,7 +4825,7 @@
 		)
 		(uuid "bb8120dd-e88c-4ad6-a787-3cafe4181d3c")
 		(property "Sheetname" "DSP"
-			(at 158.75 22.1484 0)
+			(at 219.71 25.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4788,7 +4836,7 @@
 			)
 		)
 		(property "Sheetfile" "DSP.kicad_sch"
-			(at 158.75 60.2746 0)
+			(at 219.71 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
